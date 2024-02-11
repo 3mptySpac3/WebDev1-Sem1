@@ -1,0 +1,189 @@
+
+
+/*
+.body{
+  background:url(fish.jpg);
+  background: center fixed;
+  background-size: cover;
+}*/
+
+html{
+  scroll-behavior:smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+nav{
+  width: 100%;
+  background: black;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+}
+.gg{
+  text-align: center;
+  justify-content: space-between;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+li{
+  float:left ;
+}
+
+a{
+  padding: 20px;
+  width: 100px;
+  display: block;
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+#section1{
+  background-image: url(Pics/fish.jpg);
+  display: inline-block;
+  height: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size:cover;
+  text-align: center;
+  object-fit: cover;
+}
+.h{
+  color: white;
+  text-shadow: 1px 1px red;
+  text-align: right;
+}
+
+
+#section2{
+  height: 1000px;
+  background-color: black;
+  display: inline-block;
+  height: 120vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+.i{
+  color: white;
+  text-shadow: 1px 1px  red;
+  text-align: right;
+
+}
+
+.ced{
+  display: block;
+  margin-left:10% ;
+  margin-right: 90%;
+}
+/*
+#section3{
+  height: 1000px;
+  background-image: url(yingyang.jpg);
+  display: inline-block;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  
+}
+.r{
+  color: white;
+  text-shadow: 1px 1px  red;
+  text-align: right;
+}*/
+
+#section4{
+  height: 1000px;
+  background-color: black;
+  display: inline-block;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+.a{
+  color: white;
+  text-shadow: 1px 1px  red;
+  text-align: right;
+}
+/*
+#section5{
+  height: 1000px;
+  background-image: url(fishii.jpg);
+  display: inline-block;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+}*/
+.ii{
+  color: white;
+  text-shadow: 1px 1px  red;
+  text-align: right;
+}
+
+#section6{
+  height: 1000px;
+  background-image: url(Pics/fishii.jpg);
+  display: inline-block;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+.p{
+  color: white;
+  text-shadow: 1px 1px  red;
+  text-align: right;
+}
+
+h2{
+  margin: 70px;
+  text-align: center;
+  padding: 0;
+
+}
+.paragraphT{
+  text-align: left;
+  color: red;
+  font-family: papyrus, fantasy;
+  font-size:x-large;
+}
+
+
+.paragraph{
+  text-align: left;
+  color: white;
+  font-family: papyrus, fantasy;
+  font-size:medium
+}
+
+.ul2{
+  color: white;
+  font-family: papyrus, fantasy;
+  font-size:medium;
+  display: flex;
+}
+
+
+
+.span{
+  text-align: left;
+  color: red;
+  font-family: papyrus, fantasy;
+  font-size: medium;
+}
+

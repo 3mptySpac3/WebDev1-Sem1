@@ -1,0 +1,83 @@
+<!--An understanding of List-->
+
+<ul>
+  <li>Java</li>
+  <li>PHP</li>
+  <li>C+</li>
+  <li>C++</li>
+</ul>
+
+<ol type="i">
+  <li>Java</li>
+  <li>PHP</li>
+  <li>C+</li>
+  <li>C++</li>
+</ol>
+
+<ul>
+  <li>Procecural Language 
+      <ol>
+        <li>C</li>
+      </ol>
+  </li>
+  <li>Object Oriented Language
+      <ol>
+        <li>Java</li>
+            <ul>
+              <li>Java 1</li>
+              <li>Java 2</li>
+            </ul>
+        <li>PHP</li>
+      </ol>
+  </li>
+
+<!-- Understanding of Forms-->
+
+<!--
+  Sementic tags-> form, table, self explanitory
+  Non-Semantic tages -> div, span
+-->
+
+<pre>
+  <form action="index.html" method="post"> <!--get less secured, post more secure no query string-->
+    ID: <input type="hidden" name="" value="5">
+    Name: <input type="text" name="" value="John Dow" size="40" maxlength="12"required> <!-- only one can have autofocus-->
+    Adreess: <textarea cols=10 rows=5> </textarea required>  <!--Radio options-->
+    Password: <input type="password" name=""required autofocus>
+    Phone: <input type="text" placeholder="123-456-7890" pattern=""[
+    0-9]{3}-[0-9]{3}-[0-9]{4}>
+    You Single:
+    <input type="radio" name="r1"> I have a BF
+    <input type="radio" name="r1" checked> Slide my way
+
+Courses:
+<input type="checkbox" name="c1" checked> Java
+<input type="checkbox" name="c2"> PHP
+<input type="checkbox" name="c3"> C++
+
+Session:
+<input type="radio" name="r2" checked>Morning
+<input type="radio" name="r2" >Afternoon
+<input type="radio" name="r2" >Evening
+
+Country
+<select size="4"> <!--Drop down list box-->
+  <option disabled selected>Please show your motherland</option>
+  <option value="Canada" selected>Canada</option>
+  <option value="USA">USA</option>
+  <option value="Mex">Mexico</option>
+  <option value="Py">Python</option>
+  <option value="USA">USA</option>
+  <option value="Mex">Mexico</option>
+  <option value="Py">Python</option>
+  <option value="USA">USA</option>
+  <option value="Mex">Mexico</option>
+  <option value="Py">Python</option>
+</select>
+
+<input type="submit" name="KK"> <input type="reset" name="Noooo!">
+
+
+  </form>
+</pre>
+
