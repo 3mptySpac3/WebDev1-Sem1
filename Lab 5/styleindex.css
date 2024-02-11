@@ -1,0 +1,251 @@
+/*Resume CSS start */
+
+.bigdiv {
+  display: flex;
+}
+
+/* This is everything on the left side, the main resume*/
+.A{
+  flex: 2;
+}
+
+/* This is the flex on the right side*/
+.B{
+flex: 1;
+}
+
+/*This is the in association to the nav tag...*/
+.nav{
+  width: 100%;
+  background: black;
+  overflow: hidden;
+  position: relative;
+}
+
+.navbar{
+  text-align: center;
+  justify-content: space-between;
+}
+
+/*This will control the list on the navebar*/
+.navlist{
+  display: inline;
+  font-size: large;
+}
+
+/*The hover effect of nav list*/
+.navlist a:hover{
+  color: red;
+}
+
+/*This line controls the <ul>
+ with is the mother of <li> tag, I want it have no bullet point...*/
+.navul{
+list-style: none;
+margin: 0;
+padding: 0%;
+animation: navul 8s infinite alternate;
+}
+
+/* This will control the anchore tag for the navbar*/
+.anctag{
+  padding: 25px;
+  font-size: large;
+  display: inline;
+  padding-bottom: 5px;
+  font-family: cursive;
+  color: black;
+  cursor:pointer;
+} 
+
+/*This controls the background and the color of the text in this whole resume page*/
+.body{ 
+  background-color: white;
+  color:black;
+  font-family: cursive;
+  font-size: 14px;
+}
+
+/*This controls my first name at the top of the page*/
+.firstname{
+color: black;
+font-style: italic;
+}
+
+/*This controls my last name at the top of the page*/
+.lastname{
+  color: black;
+  font-style: italic;
+}
+
+/*This is for the line or <hr> tag, its going to be the same color as Name maybe...*/
+.line{
+color: orangered;
+width: 75%;
+}
+
+/* This is for the "h4" class, ie Summary, Experiences ect*/
+.h4{
+  color: orangered;
+}
+
+/* This is for the "h4" class, ie Awards, Personal skills ect*/
+.h42{
+  color: orangered;
+  margin-inline-start: 75px;
+}
+
+/*This controls the look of some spacific words ie father joe, choach award...*/
+.span1{
+color:orangered;
+font-style: italic;
+font-size: large;
+}
+
+/* This will control all my mpost of my <pre> options ie. my job history and education... */
+.pre{
+  font-family: monospace;
+  font-size: 16px;
+}
+
+/*This element will effect the anchore tag references at the buttom of resume*/
+.r1{
+cursor: pointer;
+color: black;
+text-decoration: none;
+}
+.r1 a:hover{
+  color: orangered;
+}
+
+/*This element will effect the bullet points on ul list, making them square bullets*/
+.square{
+  list-style-type: square;
+}
+
+/*End of Resume CSS*/
+
+
+
+
+
+/*Start of Homepage css*/
+
+/*Body element for the homepage*/
+.homebody{
+  background-image: url(IMG/homebody.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+/*span element for the title of homepage*/
+.fantitle{
+  font-family: dancingscript-regular,dancingscript,cursive;
+  font-size: xx-large;
+  color: orangered;
+  animation: fantitle 8s infinite alternate;
+}
+
+/*This gives the effect of rainbow animatio on text */
+@keyframes navul{
+  0% {color: red;}
+  10%{color: rgb(255, 255, 255);}
+  20%{color:aqua}
+  30%{color:blue;}
+  40%{color:rgb(159, 20, 224)}
+  50%{color:rgb(0, 0, 0);}
+  60%{color:rgb(231, 183, 24);}
+  70%{color:rgb(17, 230, 127);}
+  80%{color:orangered;}
+  90%{color:rgba(32, 2, 78, 0.281);}
+  100%{color:yellow;}
+}
+
+
+@keyframes fantitle{
+  0% {color: red;}
+  10%{color: rgb(255, 255, 255);}
+  20%{color:aqua}
+  30%{color:blue;}
+  40%{color:rgb(159, 20, 224)}
+  50%{color:rgb(0, 0, 0);}
+  60%{color:rgb(231, 183, 24);}
+  70%{color:rgb(17, 230, 127);}
+  80%{color:orangered;}
+  90%{color:rgba(32, 2, 78, 0.281);}
+  100%{color:yellow;}
+}
+
+
+
+/* this will control the paragraph associated with the title */
+.hometitle{
+  margin-top: 7cm;
+  font-size:medium;
+}
+
+div.t1{
+  text-align: center;
+}
+
+/*End of Homepage css*/
+
+
+
+
+
+
+
+/* Start of Music and Beats CSS*/
+
+/*This will control the 
+/*The everything div is the box for all the coming div tags*/
+.everything{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 5px;
+  background-image: url(IMG/Vinle.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* these music1,music2 etc are all in conjunction to their individual div values*/
+.music1{
+  text-align: center;
+  border:2px ;
+  margin-top: 20px;
+}
+
+.music2{
+  text-align: center;
+  border:2px;
+  margin-top: 150px;
+}
+
+.music3{
+  text-align: center;
+  border:2px ;
+  margin-top: 200px;
+}
+
+.music4{
+  text-align: center;
+  border:2px;
+  margin-top: 60px;
+}
+
+.music5{
+  text-align: center;
+  border:2px;
+  margin-top: 180px;
+}
+
+/*This controls the text under each audio file box*/
+.ooi{
+font-family: dancingscript-regular,dancingscript,cursive;
+color: orangered;
+font-size: medium;
+}
+
+/*End of music and beats*/

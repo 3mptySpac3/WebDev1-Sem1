@@ -1,0 +1,51 @@
+.maindiv1, .maindiv2, .maindiv3, .maindiv4{
+  background-color: red;
+  display: flex;
+}
+
+.maindiv1 > div{
+  margin: 10px;
+  height: 50px;
+  background-color: black;
+  flex-basis: 100%;
+}
+
+.maindiv2 > div{
+  margin: 15px;
+  height: 50px;
+  background-color: black;
+  flex-basis: 100%;
+}
+
+.maindiv3 > div{
+  margin: 12px;
+  height: 50px;
+  background-color: black;
+  border: solid 2px;
+  border-color: white;
+}
+
+.a{
+  flex: 2;
+}
+.b{
+  flex:1;
+}
+
+.maindiv4{
+  flex-wrap: wrap;
+}
+.maindiv4 > div{
+  margin: 12px;
+  height: 50px;
+  background-color: black;
+  border: solid 2px;
+  border-color: white;
+  flex-grow: 1;
+}
+
+.maindiv4 :nth-of-type(5){
+  width: 100%;
+  margin-top: 0;
+}
+
